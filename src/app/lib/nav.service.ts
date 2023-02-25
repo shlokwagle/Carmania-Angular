@@ -9,7 +9,7 @@ export interface Nav {
 
 @Injectable({ providedIn: 'root' })
 export class NavService {
-  sideNavStatus = new BehaviorSubject<boolean>(true);
+  sideNavStatus = new BehaviorSubject<boolean>(false);
   routes: Nav[] = [
     { path: '', name: 'Home', exact: true },
     { path: 'articles', name: 'Articles', exact: false },
