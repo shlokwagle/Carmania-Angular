@@ -12,6 +12,7 @@ import { ArticleComponent } from './articles/article/article.component';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './header/sidenav/sidenav.component';
 import { FooterComponent } from './footer/footer.component';
+import { CarouselComponent } from './home/carousel/carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CarouselModule } from 'ngx-bootstrap/carousel';
@@ -29,6 +30,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     HeaderComponent,
     SidenavComponent,
     FooterComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
