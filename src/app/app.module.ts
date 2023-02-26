@@ -15,9 +15,12 @@ import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { TruncatePipe } from './lib/pipes/truncate.pipe';
+
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { CardComponent } from './articles/card/card.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +34,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     SidenavComponent,
     FooterComponent,
     CarouselComponent,
+    CardComponent,
+    TruncatePipe,
   ],
   imports: [
     BrowserModule,
