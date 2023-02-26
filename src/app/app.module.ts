@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +22,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { CardComponent } from './articles/card/card.component';
+import { NewsletterComponent } from './lib/newsletter/newsletter.component';
 
 @NgModule({
   declarations: [
@@ -36,12 +38,14 @@ import { CardComponent } from './articles/card/card.component';
     CarouselComponent,
     CardComponent,
     TruncatePipe,
+    NewsletterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule.forRoot(),
+    ReactiveFormsModule,
     MatSidenavModule,
     HttpClientModule,
   ],

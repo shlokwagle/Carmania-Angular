@@ -1,0 +1,27 @@
+<div class="row newsl-subs">
+  <div class="mx-auto justify-content-center">
+    <h3>Subscribe to our newsletter</h3>
+    <div class="form-group">
+      <form [formGroup]="newsletterForm" (submit)="submitForm()">
+        <input
+          type="text"
+          class="form-control"
+          id="email"
+          formControlName="email"
+          placeholder="Enter your email"
+        />
+        <button type="submit" class="btn btn-outline-light mt-3">
+          Subscribe
+        </button>
+      </form>
+    </div>
+    <div class="disclaimer">
+      <p>
+        The content of this email is confidential and intended for the recipient
+        specified in message only. It is strictly forbidden to share any part of
+        this message with any third party, without a written consent of the
+        sender
+      </p>
+    </div>
+  </div>
+</div>
