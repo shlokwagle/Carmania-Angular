@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Validators, FormBuilder } from '@angular/forms';
+import { NewsletterService } from '../newletter.service';
 
 @Component({
   selector: 'app-newsletter',
@@ -11,10 +12,22 @@ export class NewsletterComponent implements OnInit {
     email: [null, [Validators.email, Validators.required]],
   });
 
-  constructor(private fb: FormBuilder) {}
+  constructor(
+    private fb: FormBuilder,
+    private newsletterService: NewsletterService
+  ) {}
 
   submitForm() {
-    console.log(this.newsletterForm);
+    if (this.newsletterForm.valid) {
+      this.newsletterService
+        .subscribeUser(this.newsletterForm.value.email)
+        .subscribe({
+          next: (n) => console.log(n),
+          error: (e) => console.log(e),
+        });
+    } else {
+      //handle errors
+    }
   }
 
   ngOnInit(): void {}

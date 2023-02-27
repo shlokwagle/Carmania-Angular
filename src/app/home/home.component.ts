@@ -28,9 +28,9 @@ export class HomeComponent implements OnInit {
     this.requestsService
       .getArticles({
         _sort: 'id',
-        _order: 'desc',
-        _start: 5,
-        _limit: 6,
+        _order: 'asce',
+        _start: 6,
+        _end: 12,
       })
       .subscribe((data) => {
         this.homeArticles = data;
