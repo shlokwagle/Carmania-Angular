@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "McLaren Speedtail",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "McLaren has a lot to be proud of, and the list of their achievements as a brand seems to only grow exponentially as the years go by.",
       "content": "<p>McLaren has a lot to be proud of, and the list of their achievements as a brand seems to only grow exponentially as the years go by. That’s why their latest Ultimate Series hypercar, the Speedtail, pays homage to the F1 in plenty of ways. These include the F1’s iconic seating arrangement, an incredibly long, teardrop-shaped rear end akin to the F1 LM, and most importantly, an F1-worthy top speed figure of 250 mph.</p>",
       "image": "01.jpg",
       "created": 1570161290832
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "title": "Mercedes-Benz CLK-GTR",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "The 90s were quite the era for supercars, and with many supercar models from the era simply being street-legal versions of GT1 race cars, these 90s legends are still unique and unforgettable today. With a 7.3 liter V12 producing 604 horsepower, the CLK-GTR managed 3.8 seconds to 60 mph and a top speed of 214 mph. All 'best supercars lists' would not be complete without the CLK-GTR",
       "content": "<p>The 90s were quite the era for supercars, and with many supercar models from the era simply being street-legal versions of GT1 race cars, these 90s legends are still unique and unforgettable today. With a 7.3 liter V12 producing 604 horsepower, the CLK-GTR managed 3.8 seconds to 60 mph and a top speed of 214 mph. All 'best supercars lists' would not be complete without the CLK-GTR.</p>",
       "image": "02.jpg",
       "created": 1570161290832
@@ -19,7 +19,7 @@
     {
       "id": 3,
       "title": "Aston Martin One-77",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "It’s a shame that the world will only get to see 76 of this car (one has been totaled), with its perfect proportions, wide, but still very elegant stance, its trademark swan doors and gorgeous interior. But there’s more than just that to write home about when it comes to the Aston Martin One-77. With a 3.5 second 0-60, and a 220 mph top speed, the One-77 doesn’t just have a pretty face.",
       "content": "<p>It’s a shame that the world will only get to see 76 of this car (one has been totaled), with its perfect proportions, wide, but still very elegant stance, its trademark swan doors and gorgeous interior. But there’s more than just that to write home about when it comes to the Aston Martin One-77. With a 3.5 second 0-60, and a 220 mph top speed, the One-77 doesn’t just have a pretty face.</p>",
       "image": "03.jpg",
       "created": 1570161290832
@@ -27,7 +27,7 @@
     {
       "id": 4,
       "title": "Koenigsegg The One:1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "The only type of car that can outdo a Koenigsegg is a better Koenigsegg, and when the world was already wowed by the Koenigsegg Agera R, they were blown away yet again by the impossible One:1. It’s name comes from the fact that when power to weight is measured in PS and kilograms, the ratio is 1, or equivalent to a megawatt. Because of this Koenigsegg coined a new term “megacar” for the One:1, and rightfully so. While there are many supercar types and hypercars, Koenigsegg is all about the megacar.",
       "content": "<p>The only type of car that can outdo a Koenigsegg is a better Koenigsegg, and when the world was already wowed by the Koenigsegg Agera R, they were blown away yet again by the impossible One:1. It’s name comes from the fact that when power to weight is measured in PS and kilograms, the ratio is 1, or equivalent to a megawatt. Because of this Koenigsegg coined a new term “megacar” for the One:1, and rightfully so. While there are many supercar types and hypercars, Koenigsegg is all about the megacar.</p>",
       "image": "04.jpg",
       "created": 1570161290832
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "title": "Ferrari 488 Pista",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "While Ferrari is more known for their V12-powered cars, the 488 Pista proves that their V8 offerings are not to be discounted. The Pista improves on the already incredible 488 by leaving 200 pounds of weight behind and bringing along 40% more downforce, with an end result of 2.8 seconds to 60 mph and a top speed of 211 mph.",
       "content": "<p>While Ferrari is more known for their V12-powered cars, the 488 Pista proves that their V8 offerings are not to be discounted. The Pista improves on the already incredible 488 by leaving 200 pounds of weight behind and bringing along 40% more downforce, with an end result of 2.8 seconds to 60 mph and a top speed of 211 mph.</p>",
       "image": "05.jpg",
       "created": 1570161290832
@@ -43,7 +43,7 @@
     {
       "id": 6,
       "title": "Ferrari Enzo",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "Those who had a Ferrari Enzo poster in their bedroom as children are only just becoming adults today, yet still the Enzo is, only 16 years after its production, a legendary symbol of just how beautiful a supercar can be. Its incredible looks are still unparalleled and instantly recognizable, and also unparalleled are its ability to rocket to 60 mph in 3.1 seconds and top out at 221 mph. There’s a reason the Enzo is the supercar of a generation and will always be one of the super nice cars you hang a poster of on your wall.",
       "content": "<p>Those who had a Ferrari Enzo poster in their bedroom as children are only just becoming adults today, yet still the Enzo is, only 16 years after its production, a legendary symbol of just how beautiful a supercar can be. Its incredible looks are still unparalleled and instantly recognizable, and also unparalleled are its ability to rocket to 60 mph in 3.1 seconds and top out at 221 mph. There’s a reason the Enzo is the supercar of a generation and will always be one of the super nice cars you hang a poster of on your wall.</p>",
       "image": "06.jpg",
       "created": 1570161290832
@@ -51,7 +51,7 @@
     {
       "id": 7,
       "title": "McLaren 675LT",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "The iconic McLaren F1 “Long Tail” GT was a historic edition of an even more historic car in McLaren’s lineup. In 2015, the “Long Tail” edition of the McLaren 650S paid homage to that model by incorporating a similar body style to increase downforce and improving upon the performance of the car it was based on. It’s good for 2.9 seconds to 60 mph and a top speed of a blistering 205 mph",
       "content": "<p>The iconic McLaren F1 “Long Tail” GT was a historic edition of an even more historic car in McLaren’s lineup. In 2015, the “Long Tail” edition of the McLaren 650S paid homage to that model by incorporating a similar body style to increase downforce and improving upon the performance of the car it was based on. It’s good for 2.9 seconds to 60 mph and a top speed of a blistering 205 mph.</p>",
       "image": "07.jpg",
       "created": 1570161290832
@@ -59,7 +59,7 @@
     {
       "id": 8,
       "title": "Pagani Zonda",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "The Pagani that started it all was, is, and always will be a car for the ages. With a 7.3 liter Mercedes-AMG V-12 that pumps out 594 horsepower and carbon fiber construction meant that the car offered 218 mph in the way of top speed, and with only a 3.6 second 0-60, it didn’t take long to get there.",
       "content": "<p>The Pagani that started it all was, is, and always will be a car for the ages. With a 7.3 liter Mercedes-AMG V-12 that pumps out 594 horsepower and carbon fiber construction meant that the car offered 218 mph in the way of top speed, and with only a 3.6 second 0-60, it didn’t take long to get there.</p>",
       "image": "08.jpg",
       "created": 1570161290832
@@ -67,7 +67,7 @@
     {
       "id": 9,
       "title": "Pagani Huayra BC",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "The Pagani Huayra BC is something else. Its unorthodox, passionate styling suggests something otherworldly, but not nearly as otherworldly as the car’s performance. The BC edition is a Huayra that is made for the track (as if the regular Huayra wasn’t). What you get is a body made of a special “carbon triax” carbon fibre, and 745 horsepower, which means it has a power to weight ratio of 3.57 pounds per horsepower. Pagani is one of the rare car brands that continues to produce absolutely stunning supercars.",
       "content": "<p>The Pagani Huayra BC is something else. Its unorthodox, passionate styling suggests something otherworldly, but not nearly as otherworldly as the car’s performance. The BC edition is a Huayra that is made for the track (as if the regular Huayra wasn’t). What you get is a body made of a special “carbon triax” carbon fibre, and 745 horsepower, which means it has a power to weight ratio of 3.57 pounds per horsepower. Pagani is one of the rare car brands that continues to produce absolutely stunning supercars.</p>",
       "image": "09.jpg",
       "created": 1570161290832
@@ -75,7 +75,7 @@
     {
       "id": 10,
       "title": "Dodge Viper ACR",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "With a melodic V10 engine designed by Lamborghini and the perfect proportions of every enthusiast’s grand touring dreams, the Dodge Viper is a hard formula to beat. Add the ACR package, and it’s even harder. With fewer bells and whistles, and a laser focus on speed, the ACR offers its driver the most downforce of any production car at top speed, which is 1,763 pounds at 177 mph.",
       "content": "<p>With a melodic V10 engine designed by Lamborghini and the perfect proportions of every enthusiast’s grand touring dreams, the Dodge Viper is a hard formula to beat. Add the ACR package, and it’s even harder. With fewer bells and whistles, and a laser focus on speed, the ACR offers its driver the most downforce of any production car at top speed, which is 1,763 pounds at 177 mph.</p>",
       "image": "10.jpg",
       "created": 1570161290832
@@ -83,7 +83,7 @@
     {
       "id": 11,
       "title": "McLaren Senna",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "Having raced for McLaren’s F1 team during the peak of his F1 career, the late and great Aryton Senna has an incredible legacy in the McLaren brand. That’s why when they set out to build one of the most powerful and capable track-focused cars the world had ever seen, it was him they wanted to honor. With 2.8 seconds to 60 mph and less than 10 seconds for a quarter mile, the Senna lives up to its supercar name",
       "content": "<p>Having raced for McLaren’s F1 team during the peak of his F1 career, the late and great Aryton Senna has an incredible legacy in the McLaren brand. That’s why when they set out to build one of the most powerful and capable track-focused cars the world had ever seen, it was him they wanted to honor. With 2.8 seconds to 60 mph and less than 10 seconds for a quarter mile, the Senna lives up to its supercar name</p>",
       "image": "11.jpg",
       "created": 1570161290832
@@ -91,7 +91,7 @@
     {
       "id": 12,
       "title": "Bugatti Veyron",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet etur adipiscing elit, sed do eiusmod tempor i",
+      "description": "One could argue that the Buggati Veyron 16.4 was a car that marked the beginning of a new era for supercars, sports cars, and cars in general. Before that car was put into production, the world wouldn’t even imagine that a car with a 16-cylinder engine would be real and drivable. A world record for a 253 mph top speed later, the world was proven wrong. The Veyron has become just one of those exotic car names that everyone knows",
       "content": "<p>One could argue that the Buggati Veyron 16.4 was a car that marked the beginning of a new era for supercars, sports cars, and cars in general. Before that car was put into production, the world wouldn’t even imagine that a car with a 16-cylinder engine would be real and drivable. A world record for a 253 mph top speed later, the world was proven wrong. The Veyron has become just one of those exotic car names that everyone knows.</p>",
       "image": "12.jpg",
       "created": 1570161290832

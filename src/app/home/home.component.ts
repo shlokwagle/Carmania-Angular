@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
     this.requestsService
       .getArticles({
         _sort: 'id',
-        _order: 'desc',
+        _order: 'asce',
         _start: 0,
         _end: 5,
       })
