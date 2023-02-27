@@ -12,22 +12,43 @@ export class NewsletterComponent implements OnInit {
     email: [null, [Validators.email, Validators.required]],
   });
 
+  formError = { show: false, message: '' };
+  formSuccess = false;
+  disableButton = false;
+
   constructor(
     private fb: FormBuilder,
     private newsletterService: NewsletterService
   ) {}
 
   submitForm() {
+    this.disableButton = true;
     if (this.newsletterForm.valid) {
       this.newsletterService
         .subscribeUser(this.newsletterForm.value.email)
         .subscribe({
-          next: (n) => console.log(n),
-          error: (e) => console.log(e),
+          next: (n) => ((this.formSuccess = true), this.enableButton()),
+          error: (e) => this.handleError('show', 'you are already subscribed'),
         });
     } else {
       //handle errors
+      this.handleError('show', 'you need a valid email to subscribe!!');
     }
+  }
+
+  handleError(type: string, message: string) {
+    if (type === 'reset') {
+      this.formError = { show: false, message };
+    } else {
+      this.formError = { show: true, message };
+    }
+    this.enableButton();
+  }
+
+  enableButton() {
+    setTimeout(() => {
+      this.disableButton = false;
+    }, 1500);
   }
 
   ngOnInit(): void {}

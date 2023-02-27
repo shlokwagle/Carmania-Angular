@@ -19,6 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TruncatePipe } from './lib/pipes/truncate.pipe';
 
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { AlertModule } from 'ngx-bootstrap/alert';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { CardComponent } from './articles/card/card.component';
@@ -45,6 +46,7 @@ import { NewsletterComponent } from './lib/newsletter/newsletter.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule.forRoot(),
+    AlertModule.forRoot(),
     ReactiveFormsModule,
     MatSidenavModule,
     HttpClientModule,
