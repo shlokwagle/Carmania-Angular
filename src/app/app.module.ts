@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MatIconModule } from '@angular/material/icon';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,7 @@ import { SidenavComponent } from './header/sidenav/sidenav.component';
 import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CookieService } from 'ngx-cookie-service';
 
 import { TruncatePipe } from './lib/pipes/truncate.pipe';
 
@@ -24,6 +26,7 @@ import { AlertModule } from 'ngx-bootstrap/alert';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { CardComponent } from './articles/card/card.component';
 import { NewsletterComponent } from './lib/newsletter/newsletter.component';
+import { FavsComponent } from './articles/favs/favs.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +43,7 @@ import { NewsletterComponent } from './lib/newsletter/newsletter.component';
     CardComponent,
     TruncatePipe,
     NewsletterComponent,
+    FavsComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,8 +54,9 @@ import { NewsletterComponent } from './lib/newsletter/newsletter.component';
     ReactiveFormsModule,
     MatSidenavModule,
     HttpClientModule,
+    MatIconModule,
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
