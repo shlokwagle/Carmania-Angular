@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { artcilesRoute } from './routes';
+import { articlesRoute } from './routes';
 
 export interface ReqParams {
   _sort?: string;
@@ -27,9 +27,13 @@ export class RequestsService {
     const filters = this.generateFilter(vars);
     const articleParams = new HttpParams({ fromString: filters });
 
-    return this.http.get<Articles[]>(`${artcilesRoute}`, {
+    return this.http.get<Articles[]>(`${articlesRoute}`, {
       params: articleParams,
     });
+  }
+
+  getArticle(params: { id: number }) {
+    return this.http.get<Articles>(`${articlesRoute}/${params.id}`);
   }
 
   generateFilter(vars: ReqParams) {
