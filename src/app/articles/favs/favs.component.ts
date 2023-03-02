@@ -19,5 +19,11 @@ export class FavsComponent implements OnInit, OnChanges {
   constructor(private favsService: FavsService) {}
   ngOnInit(): void {}
 
-  ngOnChanges(changes: SimpleChanges): void {}
+  ngOnChanges(): void {
+    this.active = this.favsService.checkFavState(this.postId);
+  }
+
+  toggleFav() {
+    this.active = this.favsService.onToggleFav(this.postId);
+  }
 }

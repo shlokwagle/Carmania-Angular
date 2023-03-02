@@ -1,4 +1,4 @@
-<div class="favs-btn">
+<div class="favs-btn" (click)="toggleFav()">
   <mat-icon>{{ active ? "favorite_border" : "favorite" }}</mat-icon
-  ><small>Add to favs</small>
+  ><span>{{ active ? "Add to favs" : "remove from favs" }}</span>
 </div>
