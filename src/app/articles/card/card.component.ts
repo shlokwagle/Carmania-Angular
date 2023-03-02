@@ -8,7 +8,7 @@ import { Articles } from 'src/app/lib/requests.service';
 })
 export class CardComponent implements OnInit {
   @Input() article: Articles;
-  @Input() hasImage = false;
+  @Input() hasImage = true;
   @Input() truncNumber = 100;
 
   constructor() {}
