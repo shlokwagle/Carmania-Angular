@@ -13,15 +13,6 @@ export class FavsService {
     }
   }
 
-  getAllCookies() {
-    if (this.cookieService.check('favs')) {
-      return JSON.parse(this.cookieService.get('favs'));
-    } else {
-      this.cookieService.set('favs', '[]');
-      return [];
-    }
-  }
-
   checkFavExists(postId: number) {
     const allCookies = this.getAllCookies();
     return allCookies.includes(postId);
@@ -40,5 +31,14 @@ export class FavsService {
 
     this.cookieService.set('favs', JSON.stringify(allCookies));
     return state;
+  }
+
+  getAllCookies() {
+    if (this.cookieService.check('favs')) {
+      return JSON.parse(this.cookieService.get('favs'));
+    } else {
+      this.cookieService.set('favs', '[]');
+      return [];
+    }
   }
 }
