@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Validators, FormBuilder } from '@angular/forms';
-import { RequestsService } from '../lib/requests.service';
+import { RequestsService } from './../lib/requests.service';
 
 @Component({
   selector: 'app-contact',
@@ -13,26 +13,40 @@ export class ContactComponent implements OnInit {
     subject: [null, Validators.required],
     message: [null, Validators.required],
   });
-
   subjectsForm = ['Give me work', 'Got a proposal', 'Advertise', 'Other'];
+  onSuccess = false;
+  onError = {
+    show: false,
+    message: '',
+  };
 
   constructor(
     private requestsService: RequestsService,
     private fb: FormBuilder
   ) {}
 
+  ngOnInit() {}
+
   submitForm() {
     if (this.contactForm.valid) {
-      this.requestsService.sendMessage(this.contactForm.value).subscribe(
-        (data) => {
-          console.log(data);
-        },
-        (error) => {
-          console.log(error);
-        }
-      );
+      this.resetError();
+      this.requestsService.sendMessage(this.contactForm.value).subscribe({
+        next: (n) => ((this.onSuccess = true), this.contactForm.reset()),
+        error: (e) =>
+          (this.onError = {
+            show: true,
+            message: 'Sorry, something happened.Try again.',
+          }),
+      });
+    } else {
+      this.onError = {
+        show: true,
+        message: 'The form is not valid, check your data.',
+      };
     }
   }
 
-  ngOnInit(): void {}
+  resetError() {
+    this.onError = { show: false, message: '' };
+  }
 }
