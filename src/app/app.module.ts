@@ -17,6 +17,8 @@ import { FooterComponent } from './footer/footer.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CookieService } from 'ngx-cookie-service';
+import { InfiniteScrollModule } from 'ngx-infinite-scroll';
+import { SemipolarSpinnerModule } from 'angular-epic-spinners';
 
 import { TruncatePipe } from './lib/pipes/truncate.pipe';
 
@@ -27,6 +29,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { CardComponent } from './articles/card/card.component';
 import { NewsletterComponent } from './lib/newsletter/newsletter.component';
 import { FavsComponent } from './articles/favs/favs.component';
+import { SpinnerComponent } from './lib/spinner/spinner.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +47,7 @@ import { FavsComponent } from './articles/favs/favs.component';
     TruncatePipe,
     NewsletterComponent,
     FavsComponent,
+    SpinnerComponent,
   ],
   imports: [
     BrowserModule,
@@ -55,6 +59,8 @@ import { FavsComponent } from './articles/favs/favs.component';
     MatSidenavModule,
     HttpClientModule,
     MatIconModule,
+    InfiniteScrollModule,
+    SemipolarSpinnerModule,
   ],
   providers: [CookieService],
   bootstrap: [AppComponent],

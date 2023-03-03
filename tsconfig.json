@@ -21,7 +21,6 @@
     "useDefineForClassFields": false,
     "lib": [
       "ES2022",
-      "ES2017",
       "dom"
     ]
   },
