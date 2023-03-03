@@ -1,1 +1,33 @@
-<p>contact works!</p>
+<div class="container container-small contact-container mt-5">
+  <h2>Contact Us:</h2>
+  <form [formGroup]="contactForm" (submit)="submitForm()"></form>
+
+  <div class="form-group mb-3">
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      formControlName="email"
+      placeholder="Enter email"
+    />
+  </div>
+  <div class="form-group mb-3">
+    <label>Tell us why you are contacting us</label>
+    <select class="form-control" id="subject" formControlName="subject">
+      <option *ngFor="let subject of subjectsForm" [value]="subject">
+        {{ subject }}
+      </option>
+    </select>
+  </div>
+  <div class="form-group mb-3">
+    <label>Write us a message</label>
+    <textarea
+      class="form-control"
+      id="message"
+      formControlName="message"
+      rows="3"
+    ></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-outline-primary">Submit</button>
+</div>

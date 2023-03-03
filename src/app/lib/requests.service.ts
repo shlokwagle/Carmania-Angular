@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { articlesRoute } from './routes';
+import { articlesRoute, contactsRoute } from './routes';
+import { throwError } from 'rxjs';
+import { catchError } from 'rxjs';
 
 export interface ReqParams {
   _sort?: string;
@@ -46,5 +48,13 @@ export class RequestsService {
       }
     });
     return query;
+  }
+
+  sendMessage(message) {
+    return this.http.post(`${contactsRoute}`, message).pipe(
+      catchError((err) => {
+        return throwError(() => new Error(err));
+      })
+    );
   }
 }
