@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { articlesRoute, contactsRoute } from './routes';
-import { throwError } from 'rxjs';
-import { catchError } from 'rxjs';
+import { throwError, catchError } from 'rxjs';
 
 export interface ReqParams {
   _sort?: string;
